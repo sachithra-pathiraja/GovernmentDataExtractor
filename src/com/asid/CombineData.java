@@ -62,6 +62,7 @@ public class CombineData {
         NICObj[counter].put("telephone", NIC.getString("telephone"));
         NICObj[counter].put("E-mail", NIC.getString("E-mail"));
         NICObj[counter].put("Date of birth", NIC.getString("date_of_birth"));
+        NICObj[counter].put("picture", NIC.getString("Picture"));
         
         /*for(int i=0;i<columnsNumber;i++){
             String columnValue = NIC.getString(i);
@@ -126,10 +127,10 @@ public class CombineData {
     System.out.println(" ");
         }
     }*/
-    for(int i=0;i<3;i++){
+   /* for(int i=0;i<3;i++){
         if(VehicleObj[i]!=null){
           JSONObject vehicle_data = (JSONObject) obj[i].get("Vehicle data");
-          System.out.println(vehicle_data.get("Address"));
+       //   System.out.println(vehicle_data.get("Address"));
             //System.out.println(vehicle_data.get("Year of manufactured"));
             //System.out.println(DrivingLsnObj[i]);
            System.out.println(VehicleObj[i]);
