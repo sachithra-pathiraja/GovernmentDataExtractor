@@ -64,6 +64,7 @@ public class CombineData {
         NICObj[counter].put("Date of birth", NIC.getString("date_of_birth"));
         NICObj[counter].put("picture", NIC.getString("Picture"));
         
+        
         /*for(int i=0;i<columnsNumber;i++){
             String columnValue = NIC.getString(i);
         id[counter]=id[counter]+columnValue + " " + rsmd.getColumnName(i)+",";
